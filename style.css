@@ -1,0 +1,58 @@
+*{
+    border: box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(lukasz-lada-LtWFFVi1RXQ-unsplash.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.container {
+  max-width: unset;
+}
+.weather-status {
+    border-radius: 15px;
+    background: linear-gradient(to top, #c2419b7e, #ebddc376);
+    margin: 5% auto;
+    width: max(200px, 35%);
+    height: 400px;
+}
+
+h1{
+    margin-top: 10%;
+}
+
+h3{
+    margin-top: 10%;
+}
+.rainy {
+    background: url(jonathan-klok-NeRzxya_zyI-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    }
+  
+  .cloudy {
+    background: url(clouds-gc33e86bfe_1920.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
+  .hazey {
+    background: url(foggy-morning-in-a-meadow.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .sunny {
+    background: url(pexels-k-zoltan-544554.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .default {
+    background: url(lukasz-lada-LtWFFVi1RXQ-unsplash.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
